@@ -1,0 +1,3 @@
+	- DOMPDF - added $base_path variable to /include/functions.inc.php
+		on build_url() function Line 177
+	- DOMPDF - replaced file_get_contents($full_url) with CURL in image_cache.cls.php on Line 130 because of issues with dynamically generated QR code.

@@ -1,0 +1,250 @@
+/* @override 
+	http://andafrog.com/donorschoose/pulltab.css
+	http://donorschoose.andafrog.com/css/pulltab.css
+	http://printandshare.org/css/4up.css
+	http://printandshare.org/css/fourup.css
+*/
+
+/**
+ * Reset Reloaded
+ * http://meyerweb.com/eric/thoughts/2007/05/01/reset-reloaded/
+ */
+ody, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, font, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	outline: 0;
+	font-weight: inherit;
+	font-style: inherit;
+	font-size: 100%;
+	font-family: inherit;
+	vertical-align: baseline;
+}
+
+body {
+	line-height: 1;
+	color: black;
+	background: white;
+}
+ol, ul {
+	list-style: none;
+}
+/* tables still need 'cellspacing="0"' in the markup */
+table {
+	border-collapse: separate;
+	border-spacing: 0;
+}
+caption, th, td {
+	text-align: left;
+	font-weight: normal;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: "";
+}
+blockquote, q {
+	quotes: "" "";
+}
+
+
+/**
+ * Styles
+ */
+body {
+	font-family: Helvetica;;
+}
+
+table td {
+	vertical-align: top;
+}
+
+#container {
+}
+
+td.quartersheet {
+	width: 39.5%; 
+	float: left;
+	clear: none;
+	padding: 5%;
+	height: 400px;
+}
+
+td.quartersheet-1,
+td.quartersheet-3 {
+	border-right: 2px dashed #888;
+}
+
+td.quartersheet-1,
+td.quartersheet-2 {
+	border-bottom: 2px dashed #888;
+}
+
+.quartersheet img.header-students {
+	width: 100%;
+}
+
+td.quartersheet p {
+	margin: 15px 0 15px;
+	line-height: 1.3;
+	font-family: helvetica;
+}
+
+table.links {
+	margin: 10px 0 0;
+	padding: 5px 0 5px;
+	border-top: 3px dotted #62A1D6;
+	border-bottom: 3px dotted #62A1D6;
+	width: 100%;
+}
+
+table.links td.linktext {
+	font-family: helvetica;
+	font-size: 16px;
+	line-height: 22px;
+	width: 70%;
+}
+table.links td.qrcode-wrapper {
+	vertical-align:bottom;
+	width: 15%;
+	text-align: right;
+}
+
+table.links td.qrcode-wrapper img {
+	width: 100%;
+	height: auto;
+}
+
+table.links div.helptext{
+	font-family: helvetica;
+	font-size: 15px;
+	text-transform: uppercase;
+	font-family: helvetica;
+	word-spacing: 2px;
+	font-weight: bold;
+	color: #62A1D6;
+	letter-spacing: -1px;
+}
+
+table.links div.link {
+	font-family: helvetica;
+	font-size: 22px;
+	line-height: 1;
+	word-spacing: 2px;
+	color: #62A1D6;
+	font-weight: bold;
+	color: #000;
+	margin-top: 6px;
+	
+}
+
+table.about {
+	margin-top: 10px;
+	width: 100%;
+}
+
+table.about td.logo {
+	width: 15%;
+}
+
+table.about td.logo img {
+	width: 100%;
+	height: auto;
+}
+
+table.about .explanation {
+	width: 80%;
+	font-size: 11px;
+	line-height: 1.2;
+	padding-left: 2%;
+	color: #62A1D6;
+	font-family: helvetica;
+}
+
+/**
+ * Fixes for screen
+ */
+
+@media screen {
+	#container {
+		height: 940px;
+		position: relative;
+		overflow: hidden;
+	}
+	
+	img.qrcode {
+		width: 100%;
+	}
+}
+
+
+/**
+ * Fixes for printing
+ */
+@media print {
+	table#flyer	tr {
+		width: 100%;
+	}
+	
+	table#flyer	tr td.quartersheet {
+		height: 440px;
+		width: 25% !important;
+		margin: 0;
+		padding: 0;
+		text-align: center;
+	}
+	
+	table#flyer	tr td.quartersheet-1,
+	table#flyer	tr td.quartersheet-2 {
+		padding-bottom: 30px;
+	}
+	
+	table#flyer	tr td.quartersheet-3,
+	table#flyer	tr td.quartersheet-4 {
+		padding-top: 30px;
+	}
+	
+	td.quartersheet img.header-students {
+		width: 320px;
+	}
+	
+	p.fourupDescription {
+		text-align: left;
+		padding: 0 20px 0 20px;
+	}
+	
+	table.links {
+		margin: 0 15px 0 15px;
+	}
+	
+	table.links div.helptext {
+		line-height: 1;
+		margin: 0;
+		padding: 0;
+	}
+	
+	
+	table.links td.linktext {
+		width: 210px;
+	}
+	
+	table.links td.qrcode-wrapper {
+		width: 40px;
+		text-align: left;
+	}
+	
+	table.about {
+		margin: 10px 15px 0 15px;
+	}
+	
+	table.about td.logo {
+		width: 30px;
+	}
+
+}
