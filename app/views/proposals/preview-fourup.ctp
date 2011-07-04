@@ -11,7 +11,7 @@
 					<img src="/img/4up_header.png" alt="Students" class="header-students"/>
 
 					<p class="fourupDescription">
-						<?php echo html_entity_decode($proposal['fourupDescription']) ?>
+						<?php echo $proposal['fourupDescription'] ?>
 					</p>
 
 					<table class="links">

@@ -119,6 +119,12 @@ class ProposalsController extends AppController {
     	$proposal = $this->Proposal->read();
     }
 
+    // Encode a few entities for the PDF
+    $proposal['Proposal']['pulltabShort'] = htmlentities($proposal['Proposal']['pulltabShort']);
+    $proposal['Proposal']['pulltabDescription'] = htmlentities($proposal['Proposal']['pulltabDescription']);
+    $proposal['Proposal']['fourupDescription'] = htmlentities($proposal['Proposal']['fourupDescription']);
+
+
     $this->set('proposal', $proposal['Proposal']);
 
 		// Render the view to a variable.

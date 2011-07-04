@@ -10,7 +10,7 @@
 			<table id="info">
 				<tr>
 					<td id="essay" class="pulltabDescription">
-						<?php echo html_entity_decode($proposal['pulltabDescription']) ?>
+						<?php echo $proposal['pulltabDescription'] ?>
 					</td>
 					<td id="qrcode" rowspan="2">
 						<img src="http://printandshare.org/proposals/qrcode?q=<?php echo urlencode($proposal['shortURL']) ?>" alt="QR Code for <?php echo $proposal['shortURL'] ?>" class="qrcode" />
@@ -40,7 +40,7 @@
           <td class="content">
             Help <?php echo $proposal['teacherName']?>'s students
             <h3 class="printTitle"><?php echo $proposal['pulltabShort'] ?></h3>
-            <?php echo html_entity_decode($proposal['shortURL']) ?>
+            <?php echo $proposal['shortURL'] ?>
           </td>
         </tr>
       </table>
