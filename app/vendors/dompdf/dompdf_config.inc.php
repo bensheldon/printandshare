@@ -154,7 +154,7 @@ def("DOMPDF_TEMP_DIR", sys_get_temp_dir());
  * $dompdf = new DOMPDF();	$dompdf->load_html($htmldata); $dompdf->render(); $pdfdata = $dompdf->output();
  */
 //def("DOMPDF_CHROOT", realpath(DOMPDF_DIR));
-def("DOMPDF_CHROOT", '/home/alltherightpeopl/printandshare.org/app/webroot');
+def("DOMPDF_CHROOT", realpath(DOMPDF_DIR));
 
 /**
  * Whether to use Unicode fonts or not.
@@ -460,7 +460,7 @@ $_dompdf_warnings = array();
  * @var bool
  */
 global $_dompdf_show_warnings;
-$_dompdf_show_warnings = true;
+$_dompdf_show_warnings = false;
 
 /**
  * If true, the entire tree is dumped to stdout in dompdf.cls.php.
@@ -496,3 +496,4 @@ def('DEBUG_LAYOUT_LINES', false);
 def('DEBUG_LAYOUT_BLOCKS', false);
 def('DEBUG_LAYOUT_INLINE', false);
 def('DEBUG_LAYOUT_PADDINGBOX', false);
+
