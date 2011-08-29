@@ -131,7 +131,7 @@ class ProposalsController extends AppController {
 		$output = $this->render('preview-'.$type);
 		$dompdf = new DOMPDF();
 		$dompdf->load_html($output);
-		$dompdf->set_base_path('/home/alltherightpeopl/printandshare.org/app/webroot');
+		$dompdf->set_base_path(ROOT . '/app/webroot');
 
 		$dompdf->render();
 		$dompdf->stream("donorschoose-$type.pdf");
