@@ -2,3 +2,4 @@
 /app/tmp
 /plugins
 /vendors
+/app/vendors/dompdf/lib/fonts/log.htm
