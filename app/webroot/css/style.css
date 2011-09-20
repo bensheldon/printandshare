@@ -632,6 +632,61 @@ form#ProposalPdfForm {
 }
 
 
+/** 
+ * IE Modifications
+ */
+ .ie iframe.preview {
+   display: none;
+ }
+
+.ie-message {
+  display: none;
+}
+
+.ie div.ie-message {
+  display: block !important;
+  clear: both;
+  text-align: left;
+  border: 1px solid #333;
+  padding: 10px;
+}
+
+.ie div.ie-message p {
+  text-align: left !important;
+  margin: 10px 0 !important;
+  padding: 0 !important;
+}
+
+.ie div.ie-message img {
+  float: left;
+  margin: 0 10px 10px 0;
+}
+
+.ie #ProposalPdfForm input.submit-above {
+  display: none;
+}
+
+.ie #ProposalPdfForm input.submit-below {
+  width: auto !important;
+  margin: -3.5em 0 0 0 !important;
+  clear: both;
+}
+
+.ie #ProposalPdfForm p.clearfix {
+  margin-right: 200px;
+  margin-top: 2em;
+}
+
+.ie #ProposalPdfForm input,
+.ie #ProposalPdfForm textarea {
+  margin: 10px 0;
+  padding: 10px;
+}
+
+.ie #ProposalPdfForm textarea#ProposalPulltabShort {
+  height: 1.5em;
+}
+
 /**
  * Non-semantic helper classes: please define your styles before this section.
  */
