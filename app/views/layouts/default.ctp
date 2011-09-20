@@ -1,6 +1,5 @@
 <!doctype html>
-<!--[if lt IE 9]><html class="ie" lang="en"><![endif]-->
-<!--[if gte IE 9]><!--><html lang="en"><!--<![endif]-->
+<html class="no-js" lang="en"
   <head>
 	  <meta charset="utf-8">
 	  <title>DonorsChoose Print and Share</title>
@@ -9,9 +8,8 @@
 		echo $this->Html->meta('icon');
 		//echo $this->Html->css('cake.generic');
 		echo $this->Html->css('style');
-
-		echo $scripts_for_layout;
 	  ?>
+	  <script src="/js/modernizr.custom.js"></script>
 	  <link rel="icon" href="favicon.ico" />
   </head>
 
@@ -43,6 +41,10 @@
 
 	</div>
 	<?php echo $this->element('sql_dump'); ?>
+
+  <?php
+    echo $scripts_for_layout;
+  ?>
 
   <!-- mathiasbynens.be/notes/async-analytics-snippet Change UA-XXXXX-X to be your site's ID -->
   <script>

@@ -635,7 +635,7 @@ form#ProposalPdfForm {
 /** 
  * IE Modifications
  */
- .ie iframe.preview {
+ .no-csstransforms iframe.preview {
    display: none;
  }
 
@@ -643,7 +643,7 @@ form#ProposalPdfForm {
   display: none;
 }
 
-.ie div.ie-message {
+.no-csstransforms div.ie-message {
   display: block !important;
   clear: both;
   text-align: left;
@@ -651,39 +651,39 @@ form#ProposalPdfForm {
   padding: 10px;
 }
 
-.ie div.ie-message p {
+.no-csstransforms div.ie-message p {
   text-align: left !important;
   margin: 10px 0 !important;
   padding: 0 !important;
 }
 
-.ie div.ie-message img {
+.no-csstransforms div.ie-message img {
   float: left;
   margin: 0 10px 10px 0;
 }
 
-.ie #ProposalPdfForm input.submit-above {
+.no-csstransforms #ProposalPdfForm input.submit-above {
   display: none;
 }
 
-.ie #ProposalPdfForm input.submit-below {
+.no-csstransforms #ProposalPdfForm input.submit-below {
   width: auto !important;
   margin: -3.5em 0 0 0 !important;
   clear: both;
 }
 
-.ie #ProposalPdfForm p.clearfix {
+.no-csstransforms #ProposalPdfForm p.clearfix {
   margin-right: 200px;
   margin-top: 2em;
 }
 
-.ie #ProposalPdfForm input,
-.ie #ProposalPdfForm textarea {
+.no-csstransforms #ProposalPdfForm input,
+.no-csstransforms #ProposalPdfForm textarea {
   margin: 10px 0;
   padding: 10px;
 }
 
-.ie #ProposalPdfForm textarea#ProposalPulltabShort {
+.no-csstransforms #ProposalPdfForm textarea#ProposalPulltabShort {
   height: 1.5em;
 }
 
