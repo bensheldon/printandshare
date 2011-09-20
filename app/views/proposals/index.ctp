@@ -46,7 +46,7 @@
   <div>
     <img src="/css/img/benandBilly.png" alt="Ben and Billy" height="80px">
     <p class="title">Contact</p>
-    <p>Print and Share was developed by <a href="http://island94.org">Ben Sheldon</a> and designed by <a href="http://b.illbrown.com">Billy Brown</a>. If you have any questions, suggestions or feedback please drop us an <a href="mailto:bensheldon@gmail.com">email</a> or find us on <a href="http://twitter.com/bensheldon">Twitter</a>.</p>
+    <p>Print and Share was developed by <a href="http://island94.org">Ben Sheldon</a> and designed by <a href="http://b.illbrown.com">Billy Brown</a>. Please drop us an <a href="mailto:bensheldon@gmail.com">email</a> or find us on <a href="http://twitter.com/bensheldon">Twitter</a>. Also, read the <a href="https://github.com/bensheldon/printandshare/commits/master">changelog</a> or get the <a href="https://github.com/bensheldon/printandshare">code on Github</a>.</p>
 
     <p class="technical">Built with <a href="http://cakephp.org">CakePHP</a>,  <a href="http://code.google.com/p/dompdf/">dompdf</a>, <a href="http://phpqrcode.sourceforge.net/">phpqrcode</a>, <a href="http://bi.tly">bi.tly</a>, and the <a href="http://developer.donorschoose.org/">DonorsChoose API</a>.</p>
   </div>
