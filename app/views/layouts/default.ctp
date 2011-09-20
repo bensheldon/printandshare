@@ -1,5 +1,6 @@
 <!doctype html>
-<html lang="en">
+<!--[if lt IE 9]><html class="ie" lang="en"><![endif]-->
+<!--[if gte IE 9]><!--><html lang="en"><!--<![endif]-->
   <head>
 	  <meta charset="utf-8">
 	  <title>DonorsChoose Print and Share</title>
