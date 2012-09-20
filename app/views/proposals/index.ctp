@@ -10,7 +10,7 @@
   <!-- <label for="data[Proposal][search]">Paste your DonorsChoose project URL:</label> -->
   <fieldset>
     <div>
-		  <input type="text" name="data[Proposal][search]"  placeholder="e.g. http://www.donorschoose.org/donors/proposal.html?id=555077" id="ProposalSearch" />
+		  <input type="text" name="data[Proposal][search]"  placeholder="e.g. http://www.donorschoose.org/project/awesome-technology/8675309/" id="ProposalSearch" />
 	  </div>
 	  <input class="search-submit" type="submit" value="Retrieve Project &rarr;" />
 </fieldset>
