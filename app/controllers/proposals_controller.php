@@ -25,12 +25,21 @@ class ProposalsController extends AppController {
 			$id = $search;
 		}
 		else {
-			$pattern = "/(?:&|\?)(?:id\=)([0-9]*)/";
+      // Try to match the ?id=NUMBER pattern
+			$pattern = "/(?:&|\?)(?:id\=)([0-9]+).*/";
 			$match = NULL;
 			if (preg_match($pattern, $search, $match)) {
 				$id = $match[1];
 			}
 		}
+    if (!isset($id)) {
+      // Try to match the /the-title/NUMBER/?=??? pattern
+			$pattern = '/\/([0-9]+)\/?\??/';
+			$match = NULL;
+			if (preg_match($pattern, $search, $match)) {
+				$id = $match[1];
+			}
+    }
 
 
 		if (isset($id)) {
