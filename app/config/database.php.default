@@ -85,7 +85,7 @@ class DATABASE_CONFIG {
 	);
 
 	var $donorschoose = array(
-		'datasource' => '',
+		'datasource' => 'donorschoose',
 		'APIKey' => '',
 	);
 }
