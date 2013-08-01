@@ -1,12 +1,16 @@
-Print and Share
-http://printandshare.org
-bensheldon@gmail.com
+# Print and Share
+[http://printandshare.org](http://printandshare.org) 
 
 Print and Share enables teachers to easily create beautiful & printable handouts to advertise their DonorsChoose projects.
 
-http://printandshare.org
+[http://printandshare.org](http://printandshare.org) 
 
 This website was created for DonorsChoose.org's Hacking Education Contest. We designed this web app to enable teachers to more easily create flyers and handouts to spread awareness locally about their project. Not everyone is a social media ninja.
+
+## Contact
+
+Ben Sheldon<br />
+[bensheldon@gmail.com](mailto:bensheldon@gmail.com)
 
 ## Installation & Configuration
 
